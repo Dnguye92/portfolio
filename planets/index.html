@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Solar System</title>
+	<link rel="icon" href="img/solar.ico">
+	<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3">
+				<form>
+					<div class="form-group">
+						<h1 class="animated zoomIn" id="header">Enter The Name of Any Planet!</h1>
+					</div>
+					<div class="form-group">
+						<input id="planet" class="form-control" placeholder="Click On The Planet &amp; All Components After It's Loaded! Reload page to restart!">
+					</div>
+					<div class="form-group">
+						<button type="button" onclick="clickMe()" class="btn btn-primary btn-lg">click me</button>
+					</div>
+				</form>
+
+				<div>
+					<img id="picture">
+					<h1 id="name"></h1>
+				</div>
+				<div>
+					<h2 id="size"></h2>
+					<h3 id="length"></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

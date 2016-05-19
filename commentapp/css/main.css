@@ -1,0 +1,52 @@
+body{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #E9EAED;
+}
+
+.container h1{
+	font-family: 'Passion One', cursive;
+}
+
+.container p, h2{
+	text-align: left;
+}
+
+.container span{
+	font-family: 'Passion One', cursive;
+	font-size: 18px;
+	color: #9C58B5;
+}
+
+.box .fa-thumbs-up{
+	color: #9C58B5;
+}
+
+#comment{
+	height: 70px;
+	position: relative;
+}
+
+#list{
+	text-align: left;
+}
+
+.profile{
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+
+#toggleButton{
+	margin-bottom: 30px;
+	background-color: #9C58B5;
+	border-color: #9C58B5;
+}
+
+.btn-primary{
+	background-color: #9C58B5;
+	border-color: #9C58B5;
+	font-weight: bold;
+}
+

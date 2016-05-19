@@ -1,0 +1,41 @@
+body{
+	background-image: url(../img/movieHeroes.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Inconsolata', serif;
+	color: #fff;
+}
+
+a:hover, a:active, a:visited, a:focus, a{
+	text-decoration: none;
+	color: #fff;
+}
+
+h3, h2{
+	font-weight: bold;
+}
+
+#image{
+	padding-top: 5%;
+	opacity: 0.91;
+}
+
+.form-control{
+	width: 80%;
+	background-color: transparent;
+	color: #fff;
+}
+
+#header{
+	font-weight: bold;
+	font-size: 48px;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:focus, 
+.btn-primary:active, .btn-primary:visited {
+	background-color: transparent;
+	border-color: #fff;
+}
+
+.incorrect{
+	color: red;
+}

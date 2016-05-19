@@ -1,0 +1,52 @@
+body{
+	text-align: center;
+	background: url("../img/background.jpg");
+	color: #fff;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 1px;
+}
+
+.container{
+	margin-top: 50px;
+}
+
+#picture{
+}
+
+#header{
+	font-size: 56px;
+	-webkit-animation-name: header;
+	animation-name: header;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes header{
+	0% {color: #660F57;}
+	16% {color: #663366;}
+	32% {color: #003366;}
+	48% {color: #E7EBF0;}
+	64% {color: #B1BDCD;}
+	80% {color: #5B7290;}
+	100% {color: white;}
+}
+
+.btn-primary{
+	-webkit-animation-name: click;
+	animation-name: click;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	border-color: transparent;
+}
+
+.btn-primary:hover{
+	border-color: transparent;
+}
+
+@-webkit-keyframes click{
+	0% {background-color: black;}
+	25% {background-color: #2F1844;}
+	50% {background-color: #712553;}
+	75% {background-color: #B22C61;}
+	100% {background-color: #D34A98;}
+}
